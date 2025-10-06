@@ -14,9 +14,20 @@ Aun le falta una parte a este problema, ya que solo ingresar este segmento solo 
 <img width="1250" height="88" alt="consulta1" src="https://github.com/user-attachments/assets/7950e8ae-478f-4a49-ae5f-71d1bc85a73f" />
 
 ### Prueba de la consulta
+<img width="957" height="183" alt="ConsultaHecha1" src="https://github.com/user-attachments/assets/411c45cd-6ab2-4c79-a5cc-e66262a5513d" />  
+
+En esta imagen podemos ver que correr el comando nos entrega la lista de códigos que pertenecen a los computadores que buscamos. Con una consulta que nos entrega los datos de cada uno podemos revisar caso por caso para estár seguros. Como la lista es extensa, solo se mostraran 3 de los datos y el resto se confirmara manualmente.  
+<img width="815" height="145" alt="datos" src="https://github.com/user-attachments/assets/75b20064-ec4e-4947-a954-8a016bd28d27" />   
+
+Como se puede apreciar, todos los datos siguen la regla de ser hechos después de 2021 y tener CPUs de marca amd.
+
 ### Conclusión de la consulta
-La consulta estuvo relativamente fácil por su simpleza. No surgieron problemas en la creación de esté código. 
+La consulta estuvo relativamente fácil pero hubieron complicaciones en el proceso de intento y error. Hubo veces en la que surgieron errores por sintaxis y tomo un tiempo reconocer el error dentro del código. 
 ## Consulta 2: Tabletas con más de 2 GB de RAM
+### Analisis del problema
+### Construcción de la consulta
+### Prueba de la consulta
+### Conclusión de la consulta
 ## Consulta 3: Discos duros entre 32 GB y 512 GB
 ## Consulta 4: Cantidad de plataformas ASUS
 ## Consulta 5: Laptops con más de 4 GB y menos de 512 GB de disco duro
