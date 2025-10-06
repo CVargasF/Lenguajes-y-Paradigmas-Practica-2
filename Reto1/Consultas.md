@@ -42,5 +42,17 @@ La prueba de datos, igual que la anterior es exitosa. La lista de datos tiene un
 Esta consulta estuvo relativamente fácil porque tiene una estructura muy similar a la anterior. No hubieron problemas probando ni creando la consulta.  
 
 ## Consulta 3: Discos duros entre 32 GB y 512 GB
+La tercera consulta requiere que el usuario pueda buscar discos duros entre 32 GB y 512GB.  
+### Analisis del problema
+Este problema solo tiene una variable notable, el espacio de disco duro que tiene instalado cada plataforma. Esta variable se divide en 2 ya que se tiene que se debe poder elegir el mínimo y el máximo de disco duro instalado. La unica otra variable que se puede considerar es el nombre de la lista ya que se puede volver a utilizar la función findall. 
+### Construcción de la consulta
+Para construir esta consulta solo necesitamos 3 variables. El maximo de el mínimo de disco duro y el nombre de la lista resultante. 
+
+<img width="877" height="23" alt="Capacdades" src="https://github.com/user-attachments/assets/ee185d81-ef79-4c48-a980-e0c8d9445223" />
+
+
+### Prueba de la consulta
+### Conclusión de la consulta
+
 ## Consulta 4: Cantidad de plataformas ASUS
 ## Consulta 5: Laptops con más de 4 GB y menos de 512 GB de disco duro
