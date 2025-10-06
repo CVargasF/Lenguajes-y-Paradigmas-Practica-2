@@ -50,9 +50,39 @@ Para construir esta consulta solo necesitamos 3 variables. El maximo de el míni
 
 <img width="877" height="23" alt="Capacdades" src="https://github.com/user-attachments/assets/ee185d81-ef79-4c48-a980-e0c8d9445223" />  
 
+Ya que aclaramos los datos de entrada podemos ir construyendo el proceso necesario.  
+
+<img width="906" height="178" alt="potencials" src="https://github.com/user-attachments/assets/5e4e0723-afe2-40bf-acef-ce8b33dc931b" />  
+
+
 
 ### Prueba de la consulta
-### Conclusión de la consulta
 
+<img width="840" height="293" alt="cibsytaks" src="https://github.com/user-attachments/assets/536f92ee-c6ab-4327-9f6f-f30dc2c66700" />  
+
+Esta consulta se vuelve extremadamente larga si tenemos un rango tan grande de valores. Para reducir la cantidad de resultados que se deben analizar, se toma un rango mucho menor de plataformas. 
+
+<img width="538" height="121" alt="Reduccion" src="https://github.com/user-attachments/assets/55001079-809c-42ba-8f5e-65216717144c" />  
+
+Solo cambiando algunas variables podemos comprobar si esta correcta la consulta.
+
+<img width="526" height="217" alt="Encontrados" src="https://github.com/user-attachments/assets/1387743a-812e-433e-b876-6c0a74c63a8a" />
+
+Con esta prueba podemos ver que todos los datos que nos paso la consulta original fueron correctos y tienen las capacidades de disco duro dentro del rango correcto. 
+### Conclusión de la consulta
+Esta consulta fue relativamente fácil por que es muy intuitiva. Añadir más filtros con equaciones especificas a un problema similar a los anteriores no presenta una gran dificultad. 
 ## Consulta 4: Cantidad de plataformas ASUS
+La cuarta consulta requiere que el usuario pueda buscar el número de plataformas hechas por ASUS.  
+### Analisis del problema
+Esta consulta igual que la anterior presenta una solución similar en el que solo se considera un dato de importancia que es el manufactor del producto. En este caso es la compañia ASUS. Pero presenta un dato diferente que es encontrar la cantidad que hay. 
+### Construcción de la consulta
+Para esta consulta se tiene que hacer una operación que cuente elementos en una lista ya que podemos volver a utilizar findall para la lista, pero no para contar los elementos.
+### Prueba de la consulta
+### Conclusión de la consulta
 ## Consulta 5: Laptops con más de 4 GB y menos de 512 GB de disco duro
+La ultima consulta requiere que el usuario pueda buscar cuantas laptops con más de 4GB de RAM y menos de 512GB de disco duro. 
+### Analisis del problema
+
+### Construcción de la consulta
+### Prueba de la consulta
+### Conclusión de la consulta
