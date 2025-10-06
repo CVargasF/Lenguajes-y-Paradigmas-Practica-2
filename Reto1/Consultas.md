@@ -24,10 +24,23 @@ Como se puede apreciar, todos los datos siguen la regla de ser hechos después d
 ### Conclusión de la consulta
 La consulta estuvo relativamente fácil pero hubieron complicaciones en el proceso de intento y error. Hubo veces en la que surgieron errores por sintaxis y tomo un tiempo reconocer el error dentro del código. 
 ## Consulta 2: Tabletas con más de 2 GB de RAM
+La segunda consulta pide que el usuario pueda encontrar tabletas con más de 2GB de RAM instalado.  
 ### Analisis del problema
+Este problema es muy similar que el anterior, solo tiene dos variables que son vistas inmediatamente. La cantidad de RAM y el tipo de plataforma computacional. También podemos añadir el nombre de la lista a la lista de variables que lo componen.  
+<img width="676" height="23" alt="consutlas" src="https://github.com/user-attachments/assets/01878630-3afe-4566-8b22-4b63d230cdcb" />  
+
 ### Construcción de la consulta
+Este problema al ser tan similar al anterior, se puede acortar mucho el proceso ya que sabemos que elementos necesitamos.  
+<img width="1237" height="50" alt="consulta2" src="https://github.com/user-attachments/assets/762748bd-42d0-485a-8d39-709dbfd51430" />  
+
+La estructura se puede ver que es casi igual que el anterior. Utiliza _findall_ para encontrar hacer una lista con elementos que llenen los requerimientos. Estos siendo que tenga la plataforma especificada y que cumpla el requerimiento mínimo de RAM. 
 ### Prueba de la consulta
+<img width="845" height="187" alt="datosnuevos" src="https://github.com/user-attachments/assets/e0dc6afb-88a1-48ff-8f7a-516c28b40a07" />  
+
+La prueba de datos, igual que la anterior es exitosa. La lista de datos tiene un rango de 4 - 8 de RAM y son tabletas. 
 ### Conclusión de la consulta
+Esta consulta estuvo relativamente fácil porque tiene una estructura muy similar a la anterior. No hubieron problemas probando ni creando la consulta.  
+
 ## Consulta 3: Discos duros entre 32 GB y 512 GB
 ## Consulta 4: Cantidad de plataformas ASUS
 ## Consulta 5: Laptops con más de 4 GB y menos de 512 GB de disco duro
