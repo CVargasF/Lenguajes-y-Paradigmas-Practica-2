@@ -1,28 +1,26 @@
 # **Consultas**
 Hay un total de 5 consultas que el usuario tiene que poderle hacer a la base de datos.
 ## Consulta 1: Procesadores de AMD después de 2021
-La primera consutla que tenemos que crear requiere que el usuario pueda encontrar plataformas con marca AMD después de 2021. 
+La primera consulta requiere que el usuario pueda encontrar plataformas con marca AMD después de 2021. 
 ### Analisis del problema
-Para poder resolver esta consulta tenemos que encontrar las variables que necesitamos. En este problema solo hay dos variables obias en el problema, la marca de la CPU y el año de obtención. Nos especifican que la plataforma tiene que ser después cierto año.
+Lo primero que hay que hacer para poder dejar al usuario hacer esta consulta es encontrar las variables que ingresara el usuario _(Valores de entrada)_. En este problema solo hay dos variables de ingreso en el problema, la marca de la CPU y el año de obtención. Nos especifican que la plataforma tiene que tener un año de obtención mayor al que usuario ingrese.
 ### Construcción de la consulta
-Ya conociendo las variables que necesitamos y las especificaciones de cada una, podemos pasarlo a código. Lo primero en la construcción son las variables que ingrese el usuario en su busqueda. Estos son la marca de la CPU y desde que año en adelante se crearon las plataformas.  
-<img width="447" height="23" alt="Capacidad" src="https://github.com/user-attachments/assets/73139acd-6900-435a-b177-5677e0190e66" />
-
+Ya conociendo las variables que necesitamos y las especificaciones de una, podemos pasarlo a código. Lo primero en la construcción de la consulta son las variables que ingrese el usuario en su busqueda. Estos son la marca de la CPU y desde que año en adelante se crearon las plataformas.  
+<img width="447" height="23" alt="Capacidad" src="https://github.com/user-attachments/assets/73139acd-6900-435a-b177-5677e0190e66" />  
+<sup>Imagen de los constructores dentro del programa</sup>  
 Después de esto podemos ver como podemos utilizar recursividad a nuestra ventaja. Lo primero es filtrar las plataformas por las marcas de su CPU. Después de filtrar por eso encontramos como filtrar por un año especifico. Para esto convertimos el año de la plataforma en una variable dentro de la recursividad y decimos que el año de la plataforma tiene que ser mayor a el año ingresado por el usuario.  
-<img width="697" height="56" alt="Cídgo1" src="https://github.com/user-attachments/assets/4dd570ae-2f40-4b13-b10d-5f3539b5ea2f" />
-
-Aun le falta una parte a este problema, ya que solo ingresar este segmento solo te confirmara si **existen** pero no te especifica cuales son estas plataformas que existen. Para esto utilizamos una funcion de orden superior, esta siendo _findall_. Esta permite que el programa ponga en una lista variables que estén en este ciclo. Además de esto para funcionar correctamente, se le necesita aplicar un nombre a la lista. Y para eso se añade una variable de construcción, el nombre de la lista resultante.  
-<img width="1250" height="88" alt="consulta1" src="https://github.com/user-attachments/assets/7950e8ae-478f-4a49-ae5f-71d1bc85a73f" />
-
+<img width="697" height="56" alt="Cídgo1" src="https://github.com/user-attachments/assets/4dd570ae-2f40-4b13-b10d-5f3539b5ea2f" />  
+<sup>Imagen de la consulta incompleta</sup>  
+Aun le falta una parte a este problema, ya que solo ingresar este segmento solo te confirmara si **existen** pero no te especifica cuales son estas plataformas que existen. Para esto utilizamos una funcion de orden superior, esta siendo _findall_. Esta permite que el programa ponga en una lista las variables que estén en este ciclo. Además de esto para funcionar correctamente, se le necesita aplicar un nombre a la lista. Y para eso se añade una variable de construcción, este termina siendo el nombre de la lista resultante.  
+<img width="1250" height="88" alt="consulta1" src="https://github.com/user-attachments/assets/7950e8ae-478f-4a49-ae5f-71d1bc85a73f" />  
+<sup>Imagen del código para la primera consulta</sup>  
 ### Prueba de la consulta
 <img width="957" height="183" alt="ConsultaHecha1" src="https://github.com/user-attachments/assets/411c45cd-6ab2-4c79-a5cc-e66262a5513d" />  
-
 En esta imagen podemos ver que correr el comando nos entrega la lista de códigos que pertenecen a los computadores que buscamos. Con una consulta que nos entrega los datos de cada uno podemos revisar caso por caso para estár seguros. Como la lista es extensa, solo se mostraran 3 de los datos y el resto se confirmara manualmente.  
 <img width="815" height="145" alt="datos" src="https://github.com/user-attachments/assets/75b20064-ec4e-4947-a954-8a016bd28d27" />   
 
-Como se puede apreciar, todos los datos siguen la regla de ser hechos después de 2021 y tener CPUs de marca amd.
-
-### Conclusión de la consulta
+Como se puede apreciar, todos los datos siguen la regla de ser hechos después de 2021 y tener CPUs de marca amd.  
+### Conclusión de la consulta  
 La consulta estuvo relativamente fácil pero hubieron complicaciones en el proceso de intento y error. Hubo veces en la que surgieron errores por sintaxis y tomo un tiempo reconocer el error dentro del código. 
 ## Consulta 2: Tabletas con más de 2 GB de RAM
 La segunda consulta pide que el usuario pueda encontrar tabletas con más de 2GB de RAM instalado.  
@@ -107,6 +105,8 @@ Esta consulta se puede armar al juntar conceptos anteriores, los valores mínimo
 <img width="780" height="186" alt="Final" src="https://github.com/user-attachments/assets/a5be3e0f-34f3-4519-b3aa-762f39cc3dcb" />
 
 ### Prueba de la consulta
-
+La prueba de esta puede ser igual que la anterior, tomamos y descomponemos la lista en sus valores más básicos y vemos si cumplio los requerimientos.  
+<img width="842" height="263" alt="Evidencia" src="https://github.com/user-attachments/assets/5ff00699-55f5-45a4-8b69-ff3abb4bc93c" />  
+Esto comprueba que si cumplio los requerimientos por que los datos son consistentes con los filtros deseados.  
 ### Conclusión de la consulta
 Para ser la ultima, esta muy bien que utilize todos los conceptos previamente utilizados y los teje en una sola consulta. Además de esto también puede ayudar a aclarar conceptos ya que muestran que pueden tener artos filtros uno encima de otro.
