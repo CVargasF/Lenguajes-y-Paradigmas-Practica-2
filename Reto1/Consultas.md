@@ -1,4 +1,5 @@
 # **Consultas**
+Hay un total de 5 consultas que el usuario tiene que poderle hacer a la base de datos.
 ## Consulta 1: Procesadores de AMD después de 2021
 La primera consutla que tenemos que crear requiere que el usuario pueda encontrar plataformas con marca AMD después de 2021. 
 ### Analisis del problema
