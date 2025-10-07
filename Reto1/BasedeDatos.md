@@ -1,5 +1,5 @@
 # **Base de Datos**
-El primer reto tiene como primer requerimiento una base de datos.
+El primer reto tiene como primer requerimiento una base de datos en Prolog.
 ## Datos relevantes
 Para la base de datos vamos a necesitar tener que ver que datos relevantes nos pide. Los datos que nos otorgan son para la información general de una plataforma computacional (Tableta, PC, Laptop). Los datos que son relevantes para este primer reto son:  
   1. La marca de la plataforma  
