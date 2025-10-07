@@ -76,13 +76,36 @@ La cuarta consulta requiere que el usuario pueda buscar el número de plataforma
 ### Analisis del problema
 Esta consulta igual que la anterior presenta una solución similar en el que solo se considera un dato de importancia que es el manufactor del producto. En este caso es la compañia ASUS. Pero presenta un dato diferente que es encontrar la cantidad que hay. 
 ### Construcción de la consulta
-Para esta consulta se tiene que hacer una operación que cuente elementos en una lista ya que podemos volver a utilizar findall para la lista, pero no para contar los elementos.
+Para esta consulta se tiene que hacer una operación que cuente elementos en una lista ya que podemos volver a utilizar findall para filtrar los elementos y ponerlos en una lista. Primero se crea la consulta y las variables que se utilizaran.  
+<img width="435" height="17" alt="marcaresutlkar" src="https://github.com/user-attachments/assets/43999c2f-7981-463c-83d4-a0642db0d7ea" />  
+
+Despues construimos el segmento que encuentra todos los elementos que sean creados por el manufactor especificado. Esto se hace utilizand findall como en los problemas anteriores.
+<img width="806" height="102" alt="marcalistaplataforma" src="https://github.com/user-attachments/assets/e24a8dee-5e21-48f9-b8a7-23c7e347aa94" />  
+
+Hasta donde llevamos, solo tenemos la lista que necesitamos contar. Podemos utilizar una función externa para poder contar la cantidad de elementos de la lista. Esta función es una que agarra la lista y remueve la cabeza de la lista y añade 1 al equivalente de un contador de Java. 
+
+<img width="981" height="60" alt="LongitudListas" src="https://github.com/user-attachments/assets/7f285457-f04f-4ec6-9213-5a77b375acce" />  
+
+Ya con esta función creada, la implementamos a la consulta que nos entrega una lista y ingresamos la lista que nos saca como el ingreso a la función que cuenta.
+
+<img width="831" height="111" alt="encontrandocantidad" src="https://github.com/user-attachments/assets/2e4fbb28-8230-40dd-9e8b-2753ec33d452" />  
+
 ### Prueba de la consulta
+Para esta consulta no se necesita mucha evidencia para saber si funciona correctamente. Simplemente analizas si la lista que tira el programa sin añadir la función de conteo está correcta y luego miras si el conteo lo hizo bien. Aqui hay un ejemplo de esto.
+
+<img width="818" height="230" alt="Resultados" src="https://github.com/user-attachments/assets/d8def971-b847-4d1d-a781-721cbed322f8" />  
+
 ### Conclusión de la consulta
+Este problema trae mucha más construcción por que requiere una funcion externa que no se a utilizado hasta ahora. No fue complicado crear la función de contar elementos, fue un tema tocado en clase y no debería presentar ninguna dificultad. Afuera de eso, el programa corre correctamente y es simple en entenderlo.
 ## Consulta 5: Laptops con más de 4 GB y menos de 512 GB de disco duro
 La ultima consulta requiere que el usuario pueda buscar cuantas laptops con más de 4GB de RAM y menos de 512GB de disco duro. 
 ### Analisis del problema
-
+Este problema requiere 3 variables. Que tipo de plataforma se busca, el mínimo de RAM y el máximo de disco duro. Además, como es un problema similar al anterior se utiliza la ecuación anterior para contar unidades. 
 ### Construcción de la consulta
+Esta consulta se puede armar al juntar conceptos anteriores, los valores mínimos y máximos, las listas, y contar las listas. Todo esto junto se convierte en la consulta siguiente.
+<img width="780" height="186" alt="Final" src="https://github.com/user-attachments/assets/a5be3e0f-34f3-4519-b3aa-762f39cc3dcb" />
+
 ### Prueba de la consulta
+
 ### Conclusión de la consulta
+Para ser la ultima, esta muy bien que utilize todos los conceptos previamente utilizados y los teje en una sola consulta. Además de esto también puede ayudar a aclarar conceptos ya que muestran que pueden tener artos filtros uno encima de otro.
