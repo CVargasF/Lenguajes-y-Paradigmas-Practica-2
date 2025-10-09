@@ -12,6 +12,17 @@ El objetivo de este codigo es crear un sistema que planifique rutas de viajes en
 3. Usar busqueda y comparación para que el programa retorne las mejores opciones
 4. Mostrar resultados
 
+# **¿QUÉ HACE EL CÓDIGO?**
+Este es un programa de busquedas de viaje que funciona muy similar a google maps, busca la mejor forma de viajar entre ciudades usando una base de datos de vuelos y buses. 
+
+# **RESULTADOS**
+El programa retorna cuales son los vuelos directos y con escala dependiendo lo que pida el usuario, también el viaje mas rapido y el mas barato, y por ultimo lo vuelos que se encuentren en las franjas de tiempo que pida el usuario po ejemplo: los vuelos disponibles entre 6 am y 10 am. 
+
+# **PROBLEMAS Y SOLUCIONES**
+1. No me corria el programa pero con corregí lo errores de sintaxis y las variables mal escritas
+2. Tuve un error con las rutas de escala, entonces repase todo desde cero y vi que el error estaba en el orden, por lo que me asegure de que los vuelos salgan en orden con sal2 >= lleg1
+3. el programa no encontraba las rutas alternativas, este fue el mas tedioso de todos, pero lo solucione modificando el codigo para que busque combinaciones aunque no haya vuelo directo   
+
 # **CODIGO**
 <img width="843" height="892" alt="image" src="https://github.com/user-attachments/assets/90f69911-42db-4565-b458-e827292c2a96" />
 <img width="912" height="916" alt="image" src="https://github.com/user-attachments/assets/9e3aa4e3-bc33-4477-9a19-7089b57c98be" />
