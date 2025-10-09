@@ -38,8 +38,11 @@ La consulta utiliza findall para formar una lista que solo agarra las marcas de 
 
 ### Prueba de la consulta
 
-### Conclusión de la consulta
+<img width="965" height="493" alt="detalleslistadedatos" src="https://github.com/user-attachments/assets/7946179e-1184-473e-83ec-554f8af35d9b" />  
+Igual que la consulta anterior, se agarra y se descompone paso por paso que información agarro el programa al hacer la consulta. Por lo que se puede ver, el programa si agarro los datos correcto ya que los ultimos datos muestran que todos los elementos dentro de la lista si seguian los filtros pedidos. 
 
+### Conclusión de la consulta
+Este problema fue más extenso ya que requirio utilizar una función afuera de lo que se pidio anteriormente. Esta siendo la función de sort, una función que solo tiene 2 datos constructores, la lista de entrada y la de salida.  
 
 ## Consulta 4: Entre Hp y Asus, cual compañia tiene más computadores con más de 4 nucleos de CPU?
 ### Construcción de la consulta
@@ -47,7 +50,18 @@ La consulta utiliza findall para formar una lista que solo agarra las marcas de 
 Para esta ultima consulta utilizamos 5 variables, el resultado, las dos plataformas que estaremos comparando, la cantidad de nucleos de la CPU, y el tipo. 
 <img width="858" height="257" alt="ARREGLOAS" src="https://github.com/user-attachments/assets/a578a848-ed19-440f-853e-ed7a1f42c037" />
 Ya con las variables definidas, construimos el cuerpo que va a requerir que se encuentre la cantidad de elementos en dos listas. Las listas tienen elementos de la compañia que se especifico. Luego de esto, ambas listas se agarran y se convierten en el número de elementos que cada una tiene. Al final pasan a una función externa para compararlas y mostrar el resultado. 
-<img width="795" height="146" alt="formulaexterna" src="https://github.com/user-attachments/assets/9155c24d-06f1-4ab9-ac0d-ecf68ade4670" />  
-Esta función solo es para mostrar el resultado mejor ya que no se puede mostrar en un solo valor de verdadero o falso.  
+<img width="1132" height="147" alt="Recuento" src="https://github.com/user-attachments/assets/c3ac456c-e1e9-4ae5-af39-0a9cb06d562d" />  
+Esta función solo es para mostrar el resultado, ya que no se puede mostrar en un solo valor de verdadero o falso o con un número.  
+
 ### Prueba de la consulta
+<img width="1211" height="290" alt="Vistas" src="https://github.com/user-attachments/assets/81f6f0f6-c317-4e8d-9516-d77ff0e5d44a" />  
+El programa entrega la respuesta que Asus tiene más computadores con más de 4 nucleos en la CP que Hp. Luego, se descompone el problema y podemos ver que Asus tiene 7 computadores con la especificación y hp apenas tiene 4.  
+
+<img width="1222" height="507" alt="Listast2" src="https://github.com/user-attachments/assets/4014b728-f2d6-40b7-9739-2c2278385c60" />  
+En esta segunda imagen podemos ver que la cantidad de elementos es correcta para cada lista. Luego analizamos los elementos y nos damos cuenta que si siguen los filtros puestos. 
+
 ### Conclusión de la consulta
+Este problema fue el más difícil de crear ya que requiere más procesos de verificación que los anteriores. Fue una buena práctica para las funciones ensambladas. 
+
+
+
