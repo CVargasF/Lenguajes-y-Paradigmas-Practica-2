@@ -1,2 +1,17 @@
-# **EJERCICIO 4.0
+# **EJERCICIO 4.0**
+El objetivo de este codigo es crear un sistema que planifique rutas de viajes entre ciaudades con las funciones:
+1. Mostrar rutas directas con escalas
+2. Calcular rutas óptimas 
+3. Filtrar por horario 
+4. Mostrar alternativas
+
+# **CONCEPTOS**
+
+1. Las rutas tienen: origen, destino, medio de transporte, hora salida/llegada, costo y disponibilidad
+2. Las rutas deben tener coherencia de orden, que el segundo viaje salga despues del primero 
+3. Usar busqueda y comparación para que el programa retorne las mejores opciones
+4. Mostrar resultados
+
+# **CODIGO**
+
 
