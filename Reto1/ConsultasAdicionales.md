@@ -8,8 +8,11 @@ La consulta tiene en total 4 variables además de la salida. El tipo de platafor
 <img width="962" height="157" alt="Consultapt2" src="https://github.com/user-attachments/assets/b01e183a-0042-44d4-9505-0ad148deb83e" />  
 Luego se le añade el cuerpo a la consulta. Esta parte define que se tiene que buscar y lo que debe cumplir cada variable en la busqueda. Estos siendo que cumpla la limitación de video RAM y tambien cumpla el mínimo de nucleos de la CPU.  
 ### Prueba de la consulta
-### Conclusión de la consulta
+<img width="767" height="158" alt="Pruebarapida" src="https://github.com/user-attachments/assets/fdcf96eb-3178-47e2-ae7e-d18e924f66b3" />  
+Al pedir un portatil asus con más de 4 nucleos y menos de 6 de video RAM solo me sale un resultado. Al evaluar este resultado, tiene todos los requerimientos que pedí.  
 
+### Conclusión de la consulta
+Este problema es fácil porque se asemeja a los anteriores en estructura y uso. No requiere tantas pruebas ya que no es muy complicado ni se tiene que desarmar para ver los datos entremedios.
 
 
 ## Consulta 2: Cuántos computadores tienen una tarjeta grafica de Nvidia con más de 3 video RAM y más de 128 GB de disco duro?
@@ -20,8 +23,11 @@ a de la consulta.
 salid<img width="1038" height="190" alt="COnsultapartests12" src="https://github.com/user-attachments/assets/e2f489b5-2a85-4c95-a9ba-c5ad98e0e155" />  
 El cuerpo de la consulta esta hecho de un find all que encuentra las plataformas computacionales filtrando por el tipo, la marca de la tarjeta gráfica, el minimo de video RAM y el mínimo de disco duro. 
 ### Prueba de la consulta
-### Conclusión de la consulta
+<img width="807" height="500" alt="guardadadatos" src="https://github.com/user-attachments/assets/26ac6d17-829a-42de-aaef-b16d4c22b9df" />  
+Esta prueba es un poco extensa pero muestra los elementos que esta analizando el programa. La primera consulta muestra el número de plataformas que en este caso son 9. La segunda consulta muestra de que lista esta calculando el número de elementos y la ultima consulta agarrra algunos elementos para mostrar si esos elementos individuales si tienen los filtros.  
 
+### Conclusión de la consulta
+Esta consulta fue un poco más extensa en su prueba ya que requiere el resultado final, la lista que convierte en el número de elementos y algunos elementos para comprobar si esta correcta. Fuera de las pruebas, la consulta no tiene mucha ciencia ya que solo utiliza dos comanndos.  
 
 ## Consulta 3: Encontrar que marcas de CPU tienen más de 4 núcleos en portatiles después de 2020
 ### Construcción de la consulta
@@ -29,7 +35,9 @@ El cuerpo de la consulta esta hecho de un find all que encuentra las plataformas
 Este problema tiene 3 variables importantes, la cantidad mínima de nucleos en la CPU, el año mínimo y el tipo de plataforma.  
 <img width="881" height="236" alt="cuartaratasos" src="https://github.com/user-attachments/assets/50425ed6-ced8-4b73-a068-db096e1b37d7" />  
 La consulta utiliza findall para formar una lista que solo agarra las marcas de CPU de cada plataforma que sea hecha después del año especificado y sea del tipo pedido. Esto nos devuelve la lista con todas las marcas de CPU que necesitamos, pero el problema es que se repiten por cada plataforma extra que cumpla el requerimiento. Entonces se utiliza la función _sort_ para remover las copias en la lista.  
+
 ### Prueba de la consulta
+
 ### Conclusión de la consulta
 
 
