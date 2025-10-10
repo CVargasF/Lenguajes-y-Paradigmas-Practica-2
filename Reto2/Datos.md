@@ -13,63 +13,54 @@ El objetivo de este codigo es crear un sistema que planifique rutas de viajes en
 4. Mostrar resultados
 
 # **¿QUÉ HACE EL CÓDIGO?**
-Este es un programa de busquedas de viaje que funciona muy similar a google maps, busca la mejor forma de viajar entre ciudades usando una base de datos de vuelos y buses. 
+Basicamente el codigo funciona como un google flights en prolog que encuentra la mejor manera de viajar entre ciudades en avion o en bus, sus horarios, costos y disponibilidad de todas las rutas 
 
 # **RESULTADOS**
-El programa retorna cuales son los vuelos directos y con escala dependiendo lo que pida el usuario, también el viaje mas rapido y el mas barato, y por ultimo lo vuelos que se encuentren en las franjas de tiempo que pida el usuario po ejemplo: los vuelos disponibles entre 6 am y 10 am. 
+1. Muestra todas las rutas disponibles segun tu lugar de origen y tu destino con mostrar_todas_rutas
+2. Busca las rutas mas optimas del viaje que quiere realizar el usuario con ruta_mas_rapida
+3. Selecciona las rutas según el intervalo de tiempo que necesite el usuario, por ejemplo, retorna todos lo viajes entre las 6am y 10 am, esto con rutas_por_horario
+4. Muestra las rutas alternativas en caso de que no haya vuelo directo a la ciudad que el usuario desee, con sugerir_rutas_alternativas
+
 
 # **PROBLEMAS Y SOLUCIONES**
-1. No me corria el programa pero con corregí lo errores de sintaxis y las variables mal escritas
-2. Tuve un error con las rutas de escala, entonces repase todo desde cero y vi que el error estaba en el orden, por lo que me asegure de que los vuelos salgan en orden con sal2 >= lleg1
-3. el programa no encontraba las rutas alternativas, este fue el mas tedioso de todos, pero lo solucione modificando el codigo para que busque combinaciones aunque no haya vuelo directo   
+-Problema 1: tuve problemas con el orden en que se tomaban los viajes, en donde el segundo viaje salia antes que el primero, lo solucioné agregando validación temporal para tener coherencia con los horarios.
+-Problema 2: el programa a veces repetia la ciudad por ej: Bogotá → Bogotá → Medellín, así que implementé restricciones para evitar que la escala, origen y destino sean la misma ciudad.   
+-Problema 3: tuve muchos errores de sintaxis, los corregí repasando una y otra vez el codigo. 
+
 
 # **CODIGO**
-<img width="843" height="892" alt="image" src="https://github.com/user-attachments/assets/90f69911-42db-4565-b458-e827292c2a96" />
-<img width="912" height="916" alt="image" src="https://github.com/user-attachments/assets/9e3aa4e3-bc33-4477-9a19-7089b57c98be" />
-<img width="889" height="918" alt="image" src="https://github.com/user-attachments/assets/065a216a-f676-4d98-986c-09fb91344390" />
-<img width="934" height="939" alt="image" src="https://github.com/user-attachments/assets/1a331821-f6c3-4cc0-a1d0-d8f8cbc3dd32" />
-<img width="897" height="917" alt="image" src="https://github.com/user-attachments/assets/b93f64f3-efcf-4a0c-8e4a-103122e468b8" />
-<img width="684" height="326" alt="image" src="https://github.com/user-attachments/assets/3b0c580b-9fa3-4f25-bbc5-3e45cec38302" />
-<img width="805" height="767" alt="image" src="https://github.com/user-attachments/assets/0da2aabd-bf78-4e46-9c8b-1963efd4c01e" />
+<img width="860" height="928" alt="image" src="https://github.com/user-attachments/assets/87db27a5-9e67-45df-af49-3153e015c811" />
+<img width="916" height="829" alt="image" src="https://github.com/user-attachments/assets/fdad24dd-e8a1-4443-aa28-c7f272c29982" />
+<img width="931" height="882" alt="image" src="https://github.com/user-attachments/assets/ddab5afb-1ba7-44aa-848d-3fb2c767e0ab" />
+<img width="932" height="890" alt="image" src="https://github.com/user-attachments/assets/68e00b7f-ed48-4900-a695-2cb832c4d5b4" />
+<img width="936" height="814" alt="image" src="https://github.com/user-attachments/assets/bdb4e6cc-da8a-400c-8b5b-178a3efd4275" />
+<img width="977" height="812" alt="image" src="https://github.com/user-attachments/assets/ebfca211-eebe-4a7a-93ed-84c74ebeb6c2" />
+<img width="952" height="921" alt="image" src="https://github.com/user-attachments/assets/b76db6ff-e130-44e2-8d7d-24023ae1511b" />
+<img width="908" height="463" alt="image" src="https://github.com/user-attachments/assets/ae9481a4-30cf-4af0-a467-a6448cedae81" />
 
 # **CONSULTAS**
+Mostrar todas las rutas
 
-todas las rutas
+<img width="870" height="296" alt="image" src="https://github.com/user-attachments/assets/6c9099aa-60a9-4686-a71d-e1842dce059e" />
 
+La ruta mas rapida 
 
-<img width="563" height="271" alt="image" src="https://github.com/user-attachments/assets/8b18e07f-1a48-4d9a-8b15-f0d2f917dc3a" />
-<img width="686" height="237" alt="image" src="https://github.com/user-attachments/assets/30c90f0e-6da5-4698-ae33-77f1f5070684" />
+<img width="530" height="234" alt="image" src="https://github.com/user-attachments/assets/d722be09-f8d2-4435-9350-2cb17f8e2834" />
 
-mostrar la ruta mas rapida
+La ruta mas barata 
 
+<img width="499" height="258" alt="image" src="https://github.com/user-attachments/assets/7690638e-3fe4-471f-9008-14800d42a810" />
 
-<img width="463" height="208" alt="image" src="https://github.com/user-attachments/assets/6ea8de7e-6689-4807-8e69-cef85f006af6" />
-<img width="461" height="224" alt="image" src="https://github.com/user-attachments/assets/cf7d3c3b-e53d-4c2b-bdd9-515bd7ed2549" />
+Las rutas por horario determinado 
 
-mostrar ruta mas barata
+<img width="563" height="229" alt="image" src="https://github.com/user-attachments/assets/f43da27f-da47-41ec-9c0a-7ff9f9ac430b" />
 
+Las rutas alternativas
 
-<img width="453" height="213" alt="image" src="https://github.com/user-attachments/assets/a2fd4f28-5747-46a0-b917-54214734bde8" />
-<img width="498" height="232" alt="image" src="https://github.com/user-attachments/assets/1fc6de52-02e5-4776-bc48-5750c87abdae" />
+<img width="764" height="201" alt="image" src="https://github.com/user-attachments/assets/8f886f22-c561-464a-a443-aa67f2aa5abd" />
 
-rutas por horario
+Opción extra 
 
-
-<img width="508" height="232" alt="image" src="https://github.com/user-attachments/assets/491c4f2a-ae94-4000-8d57-8a68432ac177" />
-<img width="500" height="180" alt="image" src="https://github.com/user-attachments/assets/8e90aafb-9f0f-47ba-86ec-dbd991aa3c7e" />
-
-rutas alternativas
-
-
-<img width="789" height="148" alt="image" src="https://github.com/user-attachments/assets/932ffd62-15ef-4627-873c-24c175890585" />
-<img width="461" height="183" alt="image" src="https://github.com/user-attachments/assets/ff5d15cd-6756-467a-b293-f19160b34836" />
-
-rutas directas
-
-
-<img width="509" height="211" alt="image" src="https://github.com/user-attachments/assets/d44f759a-c884-4cd8-9f88-d069f2bf5bc8" />
-<img width="691" height="196" alt="image" src="https://github.com/user-attachments/assets/a7492581-0efb-42bc-bba1-93539f44e5ce" />
-
-
+<img width="624" height="372" alt="image" src="https://github.com/user-attachments/assets/1794c28b-df45-499a-b325-8cd1f3db9d27" />
 
 
