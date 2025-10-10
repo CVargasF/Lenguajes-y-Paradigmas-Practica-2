@@ -34,7 +34,7 @@ Basicamente el codigo funciona como un google flights en prolog que encuentra la
 <img width="931" height="882" alt="image" src="https://github.com/user-attachments/assets/ddab5afb-1ba7-44aa-848d-3fb2c767e0ab" />
 <img width="932" height="890" alt="image" src="https://github.com/user-attachments/assets/68e00b7f-ed48-4900-a695-2cb832c4d5b4" />
 <img width="936" height="814" alt="image" src="https://github.com/user-attachments/assets/bdb4e6cc-da8a-400c-8b5b-178a3efd4275" />
-<img width="977" height="812" alt="image" src="https://github.com/user-attachments/assets/ebfca211-eebe-4a7a-93ed-84c74ebeb6c2" />
+<img width="915" height="805" alt="image" src="https://github.com/user-attachments/assets/0d6c7303-6a83-4a4a-91b6-053773b49376" />
 <img width="952" height="921" alt="image" src="https://github.com/user-attachments/assets/b76db6ff-e130-44e2-8d7d-24023ae1511b" />
 <img width="908" height="463" alt="image" src="https://github.com/user-attachments/assets/ae9481a4-30cf-4af0-a467-a6448cedae81" />
 
